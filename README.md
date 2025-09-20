@@ -1,36 +1,49 @@
 # PlanGenie
-# AI Agent Orchestration for Travel Itinerary Planning
+# AI Agent Coordination for Planning Travel Itineraries
 
-## Overview
-This project demonstrates *multi-agent orchestration* for end-to-end travel planning.  
-A *Main Orchestrator Agent* receives natural language input from the user, extracts key trip details, and coordinates specialized sub-agents to fulfill different parts of the request.
+## 📌 Summary
+This project demonstrates **multi-agent orchestration** for end-to-end journey planning.  
+A **Main Orchestrator Agent** receives natural language input from the user, extracts trip details, and delegates tasks to specialized sub-agents to complete different components of the request.
 
-## Agents
-- *Flight Ticket Agent* 
-  Fetches flight options and ticket details.  
+## 🤖 Agents
+- **Flight Ticket Agent**  
+  Retrieves ticket information and flight alternatives.  
 
-- *Accommodation Agent*   
-  Finds and manages stay bookings (hotels, rentals, etc.).  
+- **Accommodation Agent**  
+  Locates and manages reservations for lodging (hotels, rentals, etc.).  
 
-- *Itinerary Agent* 
-  Designs a detailed day-by-day schedule for the trip.  
+- **Itinerary Agent**  
+  Creates a comprehensive daily itinerary for the journey.  
 
-## Workflow
-1. User provides trip details in plain language (e.g., destination, dates, preferences).  
-2. The *Main Orchestrator Agent* parses the request.  
-3. Relevant sub-agents are invoked to gather flights, accommodations, and itinerary plans.  
-4. Outputs are aggregated into a *complete structured itinerary*.  
+## 🔄 Workflow
+1. The user enters travel information in plain language (destination, dates, preferences).  
+2. The **Main Orchestrator Agent** parses the request.  
+3. Flight, lodging, and itinerary arrangements are gathered by calling upon the relevant sub-agents.  
+4. Outputs are combined into a **full structured itinerary**.  
 
-## Project Status
-Currently in the *setup phase*.  
+## 📂 Project Status
+We are currently in the **setup phase**.  
 This README will be updated with:
-- Installation & setup instructions  
+- Installation and setup guidelines  
 - System architecture diagrams  
 - Usage examples and screenshots  
 
-## Planned Features
-- Natural language trip request parsing  
+## 🚀 Anticipated Features
+- Parsing trip requests in natural language  
 - Automated flight search & booking  
 - Smart accommodation recommendations  
 - Day-wise itinerary generation  
-- Modular and extendable orchestration framework
+- Extensible and modular orchestration framework  
+
+---
+
+## 📖 Next Steps
+- [ ] Add installation & setup instructions  
+- [ ] Provide architecture diagrams  
+- [ ] Add usage examples and sample runs  
+- [ ] Prepare contribution guidelines  
+
+---
+
+## 📜 License
+*(Add license type here, e.g., MIT, Apache 2.0, etc.)*
